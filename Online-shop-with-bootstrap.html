@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./bootstrap-css-js/bootstrap.min.css">
+    <link rel="stylesheet" href="./Online-shop-with-bootstrap.css">
+
+    <title>Your Online Shop</title>
+
+</head>
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+            <a class="navbar-brand" href="#">
+                <h2>Jahangir</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#shoes">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#backpack">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#subscribe">Subscribe</a>
+                </li>
+                <button class="btn btn-primary" type="submit">Subscribe</button>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <!--================== carousel items ======= -->
+    <div class="container bg-color">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row align-items-center">
+                    <div class="col-md-7" data-bs-interval="10000">
+                        <img src="./media-2/banner-images/tv.png" class="d-block w-75" alt="./media-2/Photos/Man.png">
+                    </div>
+                    <div class="col-md-5">
+                        <h2>Big Screen With Led Eye Protect</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus deleniti sunt sapiente ut reiciendis eveniet! Doloremque veritatis ad accusamus.</p>
+                        <button>buy now</button>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="row align-items-center">
+                    <div class="carousel-text col-md-7">
+                        <h2>Good Sound Quality</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ea, distinctio cupiditate nesciunt dolore eius unde soluta aliquam aspernatur excepturi!</p>
+                        <button type="submit">
+                            buy naw
+                        </button>
+                    </div>
+                    <div class="carousel-image col-md-5">
+                        <img src="./media-2/banner-images/headphone.png" class="d-block w-100" alt="./media-2/Photos/Man.png">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row align-items-center">
+                      <div class="carousel-text col-md-7">
+                          <h2>Smooth Play Eassyly handle</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe exercitationem voluptatem dicta! Facilis voluptas suscipit culpa dolorum nisi quasi delectus!</p>
+                          <button type="submit">buy now</button>
+                      </div>
+                      <div class="carousel-image col-md-5">
+                        <img src="./media-2/banner-images/xbox.png" class="d-block w-100" alt="./media-2/Photos/Man.png">
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <!-- <div class="container">
+      <div class="row row-cols-4">
+        <div class="col-3 mr-2">
+          <div class="card" style="width: 18rem;">
+            <img src="./media-2/ICON/book.png" class="card-img-top w-25 w-25 justify-content-center" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 mr-2">
+          <div class="card" style="width: 18rem;">
+            <img src="./media-2/ICON/Test.png" class="card-img-top w-25 w-25 justify-content-center" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 mr-2">
+          <div class="card" style="width: 18rem;">
+            <img src="./media-2/ICON/Student.png" class="card-img-top w-25 w-25 justify-content-center" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 mr-2">
+          <div class="card" style="width: 18rem;">
+            <img src="./media-2/ICON/Students.png" class="card-img-top w-25 w-25 justify-content-center" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!--============= service with icon ================== -->
+   <div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-2">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./media-2/ICON/book.png" class="card-img-top w-25" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./media-2/ICON/Student.png" class="card-img-top w-25" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a short card.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./media-2/ICON/Students.png" class="card-img-top w-25" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img  src="./media-2/ICON/Test.png" class="card-img-top w-25" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+   <!--========== Three Card Item ====== -->
+   <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./media-2/Photos/Morder pyschology.png" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./media-2/Photos/Morder pychons.png" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./media-2/Photos/Morder psyc.png" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+    <!--======= bootstrap script ======== -->
+    <script src="./bootstrap-css-js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
